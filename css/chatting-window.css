@@ -1,5 +1,12 @@
-.screen {
+.screen2 {
     background-color: rgb(171, 193, 209);
+    width: 360px;
+    height: 650px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 2px solid mediumspringgreen;
+    padding: 10px;
 }
 
 .title__chatting {
@@ -7,6 +14,8 @@
     justify-content: space-between;
     align-items: center;
     margin-right:10px;
+    position:relative;
+    top:-95px;
 }
 
 .title__chatting a {
@@ -25,17 +34,21 @@
     width: 150px;
     text-align: center;
     position:relative;
-    left: 80px;
+    left: 95px;
     font-size:10px;
     color: rgba(235, 229, 229, 0.5);
+    position:relative;
+    top:-170px;
 }
 
-.first-chatting {
+.first-chatting2 {
     display: flex;
     justify-content: flex-start;
+    position:relative;
+    top: -200px;
 }
 
-.first-chatting img {
+.first-chatting2 img {
     width: 35px;
     height: 35px;
     border-radius: 13px;
@@ -70,24 +83,67 @@
     left:100px;
 }
 
-.second-chatting {
+.second-chatting2 {
     display: flex;
     justify-content: flex-end;
+    position: relative;
+    top:-220px;
 }
 
-.second-chatting div:nth-child(2) {
+.second-chatting2 div:nth-child(2) {
     background-color: rgb(254, 229, 1);
     color:black;
     border-radius: 25px 0px 25px 25px;
-    padding: 10px;
+    padding: 8px;
 }
 
 .hello-time2 {
     opacity: 0.5;
     font-size:small;
+    position:relative;
+    top:21px;
+    right:2px;
 }
 
+.chatting-input {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding:13px;
+    margin: -10px -10px;
+}
 
+.chatting-input input {
+    width :230px;
+    border-radius: 25px;
+    border: 1px solid rgba(28, 27, 19, 0.5);
+}
+
+.chatting-input i {
+    opacity: 0.5;
+}
+
+.push {
+    opacity: 1;
+    border-radius: 25px;
+    background-color: mediumspringgreen;
+}
+
+.chatting-input input:focus {
+    outline: none;
+    border-bottom: 2px solid rgb(68, 250, 174, 1);
+}
+
+@keyframes moving-letters {
+    0%{transform: scale(1)}
+    50%{transform: scale(1.5,1)}
+    100%{transform: scale(1)}
+}
+
+.chatting-input input[placeholder=" you can write down here!"] {
+    animation: moving-letters 3s ease-in-out 2;
+}
 
 
 
