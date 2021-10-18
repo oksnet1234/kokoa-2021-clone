@@ -39,7 +39,12 @@ body {
     
 
 .status-bar__last-part i {
-    margin-left: 5px;
+    margin-left: 4px;
+}
+
+.status-bar__last-part span {
+    font-size:15px;
+    margin-left:6px;
 }
 
 /* welcome */

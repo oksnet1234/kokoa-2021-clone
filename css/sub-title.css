@@ -1,0 +1,11 @@
+.sub-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:20px;
+}
+
+.sub-title h2 {
+    font-weight: 800;
+}
