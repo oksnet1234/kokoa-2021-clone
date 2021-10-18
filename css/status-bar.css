@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display:flex;
+    justify-content: center;
+}
+
+.screen {
+    width: 360px;
+    height: 650px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 2px solid mediumspringgreen;
+    padding: 10px;
+
+}
+
+
+/* status-bar */
+
+.status-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    margin-top: 3px;
+}
+
+.status-bar div:first-child {
+    display: flex;
+}
+
+.status-bar > div i {
+ margin-left:5px;
+}
+    
+
+.status-bar__last-part i {
+    margin-left: 5px;
+}
+
+/* welcome */
+
+.welcome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.welcome h4 {
+    opacity: 0.5;
+    margin: 5px;
+}
+
+/* input */
+
+.input__form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 5px;
+
+}
+
+
+
+.input__form input:first-child {
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    padding-bottom: 5px;
+}
+
+.input__form input:first-child::placeholder {
+    font-size:large;
+}
+
+.input__form input:nth-child(2) {
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    padding-bottom: 5px;
+    margin-top: 10px;
+}
+
+.input__form input:nth-child(2)::placeholder {
+    font-size:large;
+}
+
+.input__form input[type="submit"] {
+    border: none;
+    font-size: 30px;
+    opacity: 0.8;
+    margin-top: 10px;
+    background-color: mediumspringgreen;
+}
+
+.input__form a {
+    text-decoration: none;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.input__form input:focus {
+    outline: none;
+    border-bottom: 2px solid rgb(68, 250, 174, 1);
+}
+
+/*img melone */
+
+.img img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+}
+
