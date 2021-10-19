@@ -1,0 +1,135 @@
+
+.red-circle { 
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: red;
+    animation: blink 1s ease-in-out infinite;
+    position:absolute;
+    right:69px;
+    top:68px;
+}
+
+@keyframes blink {
+    from{ 
+        background-color: red;
+    }
+    to {
+        background-color: white;
+    }
+}
+
+.qrcode__icon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 15px;
+    position:relative;
+    top:-50px;
+}
+
+.qrcode__letter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 7px;
+    position: relative;
+    top:-50px;
+}
+
+.qrcode__letter span:nth-child(2) {
+    font-size:small;
+    margin-left:-20px;
+}
+
+.qrcode__letter span:nth-child(3) {
+    font-size: small;
+    position: relative;
+    left:-15px;
+}
+
+.qrcode__letter span:nth-child(4) {
+    position: relative;
+    left:-4px;
+}
+
+.recommend {
+    display: flex;
+    flex-direction: column;
+}
+
+.recommend__first {
+    opacity: 0.5;
+    border: none;
+    border-top: 1px solid rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    font-size:smaller;
+    margin-top: -45px;
+}
+
+.recommend__second {
+    opacity: 0.5;
+    width: 360px;
+    height: 200px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size:smaller;
+    position:relative;
+    left:-15px;
+}
+
+.open-chat {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.open-chat__title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    opacity: 0.5;
+    border-top:1px solid rgba(0, 0, 0, 0.5);
+    padding:10px;
+    font-size: smaller;
+}
+
+.open-chat__title span:nth-child(2) {
+    position: relative;
+    right: -60px;
+}
+
+.open-chat__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.open-chat__inner__left {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.open-chat__inner__left span:nth-child(2) {
+    opacity: 0.5;
+}
+
+.open-chat__inner__left span:nth-child(3) {
+    opacity: 0.5;
+}
+
+
+.open-chat__inner__right img {
+    width:60px;
+    height: 60px;
+    border-radius: 25px;
+    margin-right: 10px;
+    
+}
+
+#setting-a {
+    text-decoration: none;
+    color:black;
+}
+
