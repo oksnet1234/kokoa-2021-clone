@@ -20,7 +20,7 @@ body {
 }
 
 .screen {
-    width: 390px;
+    width: 100vw;
     height: 650px;
     display: flex;
     flex-direction: column;
