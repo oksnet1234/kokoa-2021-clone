@@ -7,8 +7,27 @@
 @import "css/find.css";
 @import "css/more.css";
 @import "css/setting.css";
-
+@import "css/index.css";
 
 * {
     box-sizing: border-box;
 }
+
+
+body {
+    display:flex;
+    justify-content: center;
+}
+
+.screen {
+    width: 390px;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border: 2px solid mediumspringgreen;
+    padding: 10px;
+
+}
+

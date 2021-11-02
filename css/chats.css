@@ -1,6 +1,6 @@
 .sub-title__chats {
     position:relative;
-    top: -30px;
+    top: -150px;
 }
 
 .sub-title__chats i:nth-child(2) {
@@ -28,7 +28,7 @@
     justify-content: space-between;
     align-items: center;
     position: relative;
-    top:-35px;
+    top:-280px;
     text-decoration: none;
     color:black;
 }
@@ -81,8 +81,4 @@
     right: -10px;
 }
 
-.blank__chats {
-    width: 300px;
-    height: 550px;
-}
 

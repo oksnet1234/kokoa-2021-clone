@@ -1,4 +1,6 @@
 .sub-title__find {
+    display: flex;
+    justify-content: space-between;
     position:relative;
     top:-38px;
 }
@@ -9,7 +11,7 @@
     background-color: red;
     animation: blink 1s ease-in-out infinite;
     position:absolute;
-    right:69px;
+    right:60px;
     top:85px;
 }
 
