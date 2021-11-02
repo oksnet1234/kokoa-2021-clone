@@ -4,14 +4,13 @@
 }
 
 .sub-title__more i:nth-child(2) {
-    position:absolute;
-    left:220px;
+    position:relative;
+    left:100px;
 }
 .sub-title__more i:nth-child(3) {
 
-    position:absolute;
-    left: 265px;
-    top:25px;
+    position:relative;
+    left: 50px;
 }
 
 .red-circle {
